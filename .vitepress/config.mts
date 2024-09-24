@@ -10,14 +10,14 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '黑苹果', link: '/hackintosh/index',
+        text: '黑苹果', link: '/hackintosh/index'
      
       },
       {
         text: '面试', link: '/interview/index',
       },
       {
-        text: '读书笔记', link: '/book/某书读后感',
+        text: '读书笔记', link: '/book/index',
       }
     ],
 

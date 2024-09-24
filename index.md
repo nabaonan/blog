@@ -4,15 +4,18 @@ layout: home
 
 hero:
   name: "我的博客"
-  text: "记录日常"
-  tagline: My great project tagline
+  text: "记录日常所看所思所想"
+  tagline: 面试经验, 读书笔记, 黑苹果
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 黑苹果
+      link: /hackintosh/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 面试
+      link: /interview/index
+    - theme: alt
+      text: 读书笔记
+      link: /book/index
 
 features:
   - title: Feature A
