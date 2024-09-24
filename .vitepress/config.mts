@@ -1,11 +1,17 @@
 import { defineConfig } from 'vitepress'
 
+
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "我的博客",
+  // titleTemplate: 'hero',
   description: "记录日常",
   base: '/blog/',
+  
+  
   themeConfig: {
+    
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
