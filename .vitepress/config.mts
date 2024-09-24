@@ -10,6 +10,7 @@ export default defineConfig({
   description: "记录日常",
   base: '/blog/',
   vite: {
+  
     plugins: [
       AutoSidebar({
         path: '',
@@ -23,11 +24,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: 'vitepress使用', link: '/vitepress-skill/定制主题' },
       {
         text: '黑苹果', link: '/hackintosh/概述'
       },
       {
         text: '面试', link: '/interview/概述',
+      },
+      {
+        text: '日常', link: '/normal/概述',
       },
       {
         text: '读书笔记', link: '/book/概述',
