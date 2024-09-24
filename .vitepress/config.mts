@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 
+import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
 
 
 // https://vitepress.dev/reference/site-config
@@ -8,6 +9,13 @@ export default defineConfig({
   // titleTemplate: 'hero',
   description: "记录日常",
   base: '/blog/',
+  vite: {
+    plugins: [
+      AutoSidebar({
+        path: '',
+      })
+    ],
+  },
   
   
   themeConfig: {
@@ -16,40 +24,21 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '黑苹果', link: '/hackintosh/index'
-     
+        text: '黑苹果', link: '/hackintosh/概述'
       },
       {
-        text: '面试', link: '/interview/index',
+        text: '面试', link: '/interview/概述',
       },
       {
-        text: '读书笔记', link: '/book/index',
+        text: '读书笔记', link: '/book/概述',
       }
     ],
-
-    sidebar: [
     
-      {
-        text: '黑苹果',
-        items: [
-          { text: '定制音频', link: '/hackintosh/定制音频' }
-        ]
-      },
-      {
-        text: '面试',
-        items: [
-          { text: '教育公司', link: '/interview/教育面试' }
-        ]
-      }, {
-        text: '读书笔记',
-        items: [
-          { text: 'xx读后感', link: '/book/某书读后感' }
-        ]
-      }
-    ],
+
+   
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/nabaonan/blog' }
     ]
   }
 })

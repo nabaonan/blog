@@ -14,10 +14,10 @@ hero:
       link: /vitepress-skill/定制主题
     - theme: alt
       text: 黑苹果
-      link: /hackintosh/indexg
+      link: /hackintosh/概述
     - theme: alt
       text: 面试
-      link: /interview/index
+      link: /interview/概述
     - theme: alt
       text: 读书笔记
       link: /book/index
