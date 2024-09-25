@@ -6,7 +6,7 @@ import AutoNav from "vite-plugin-vitepress-auto-nav";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "我的博客",
+  title: "nabaonan的博客",
   // titleTemplate: 'hero',
   description: "记录日常",
   base: '/blog/', 

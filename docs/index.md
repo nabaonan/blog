@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "我的博客"
+  name: "欢迎来到我的博客"
   text: "记录日常所看所思所想"
   image: 
     src: /logo.png
