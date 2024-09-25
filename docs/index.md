@@ -11,16 +11,16 @@ hero:
   actions:
     - theme: brand
       text: vitepress技巧
-      link: /vitepress-skill/定制主题
+      link: /vitepress使用技巧
     - theme: alt
       text: 黑苹果
-      link: /hackintosh/概述
+      link: /黑苹果
     - theme: alt
       text: 面试
-      link: /interview/概述
+      link: /面试经验/
     - theme: alt
       text: 读书笔记
-      link: /book/index
+      link: /读书笔记
 
 # features:
 #   - title: Feature A

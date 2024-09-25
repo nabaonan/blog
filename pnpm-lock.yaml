@@ -12,6 +12,12 @@ importers:
         specifier: ^1.7.0
         version: 1.7.0(eslint@8.57.1)(typescript@5.6.2)(vite@5.4.7)(vitepress@1.3.4(@algolia/client-search@4.24.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2))
     devDependencies:
+      vite:
+        specifier: ^5.4.7
+        version: 5.4.7
+      vite-plugin-vitepress-auto-nav:
+        specifier: ^3.0.0
+        version: 3.0.0(vite@5.4.7)(vitepress@1.3.4(@algolia/client-search@4.24.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2))
       vitepress:
         specifier: ^1.3.4
         version: 1.3.4(@algolia/client-search@4.24.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2)
@@ -736,6 +742,10 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==, tarball: https://r2.cnpmjs.org/esutils/-/esutils-2.0.3.tgz}
     engines: {node: '>=0.10.0'}
 
+  extend-shallow@2.0.1:
+    resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==, tarball: https://r2.cnpmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==, tarball: https://r2.cnpmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz}
 
@@ -808,6 +818,10 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
+  gray-matter@4.0.3:
+    resolution: {integrity: sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==, tarball: https://r2.cnpmjs.org/gray-matter/-/gray-matter-4.0.3.tgz}
+    engines: {node: '>=6.0'}
+
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==, tarball: https://r2.cnpmjs.org/has-flag/-/has-flag-4.0.0.tgz}
     engines: {node: '>=8'}
@@ -842,6 +856,10 @@ packages:
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==, tarball: https://r2.cnpmjs.org/inherits/-/inherits-2.0.4.tgz}
+
+  is-extendable@0.1.1:
+    resolution: {integrity: sha512-5BMULNob1vgFX6EjQw5izWDxrecWK9AM72rugNr0TFldMOi0fj6Jk+zeKIt0xGj4cEfQIJth4w3OKWOJ4f+AFw==, tarball: https://r2.cnpmjs.org/is-extendable/-/is-extendable-0.1.1.tgz}
+    engines: {node: '>=0.10.0'}
 
   is-extglob@2.1.1:
     resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==, tarball: https://r2.cnpmjs.org/is-extglob/-/is-extglob-2.1.1.tgz}
@@ -885,6 +903,10 @@ packages:
 
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
+
+  kind-of@6.0.3:
+    resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==, tarball: https://r2.cnpmjs.org/kind-of/-/kind-of-6.0.3.tgz}
+    engines: {node: '>=0.10.0'}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==, tarball: https://r2.cnpmjs.org/levn/-/levn-0.4.1.tgz}
@@ -1048,6 +1070,10 @@ packages:
   search-insights@2.17.2:
     resolution: {integrity: sha512-zFNpOpUO+tY2D85KrxJ+aqwnIfdEGi06UH2+xEb+Bp9Mwznmauqc9djbnBibJO5mpfUPPa8st6Sx65+vbeO45g==}
 
+  section-matter@1.0.0:
+    resolution: {integrity: sha512-vfD3pmTzGpufjScBh50YHKzEu2lxBWhVEHsNGoEXmCmn2hKGfeNLYMzCJpe8cD7gqX7TJluOVpBkAequ6dgMmA==, tarball: https://r2.cnpmjs.org/section-matter/-/section-matter-1.0.0.tgz}
+    engines: {node: '>=4'}
+
   semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
@@ -1088,6 +1114,10 @@ packages:
   strip-ansi@6.0.1:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==, tarball: https://r2.cnpmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz}
     engines: {node: '>=8'}
+
+  strip-bom-string@1.0.0:
+    resolution: {integrity: sha512-uCC2VHvQRYu+lMh4My/sFNmF2klFymLX1wHJeXnbEJERpV/ZsVuonzerjfrGpIGF7LBVa1O7i9kjiWvJiFck8g==, tarball: https://r2.cnpmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz}
+    engines: {node: '>=0.10.0'}
 
   strip-json-comments@3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==, tarball: https://r2.cnpmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz}
@@ -1163,6 +1193,13 @@ packages:
 
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
+
+  vite-plugin-vitepress-auto-nav@3.0.0:
+    resolution: {integrity: sha512-/hCmKMItdmm+Blv8jFGAtyqT4qKvtcrG1Hp7hA1DQd4NYm1zf8YUGdKEkzssSlVGZfRibIMxoDE27vxAWDGu4w==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      vite: '>=4.0.0'
+      vitepress: '>=1.0.0'
 
   vite-plugin-vitepress-auto-sidebar@1.7.0:
     resolution: {integrity: sha512-6Ry6Z2bpgrCQiANYymivSsVWW+pBicdMQWFVY8jv21d559hqX8iyoBWXTsczn7FVfziNq6TeG/OrEnl71xeUNA==}
@@ -1977,6 +2014,10 @@ snapshots:
 
   esutils@2.0.3: {}
 
+  extend-shallow@2.0.1:
+    dependencies:
+      is-extendable: 0.1.1
+
   fast-deep-equal@3.1.3: {}
 
   fast-glob@3.3.2:
@@ -2061,6 +2102,13 @@ snapshots:
 
   graphemer@1.4.0: {}
 
+  gray-matter@4.0.3:
+    dependencies:
+      js-yaml: 3.14.1
+      kind-of: 6.0.3
+      section-matter: 1.0.0
+      strip-bom-string: 1.0.0
+
   has-flag@4.0.0: {}
 
   hast-util-to-html@9.0.3:
@@ -2101,6 +2149,8 @@ snapshots:
 
   inherits@2.0.4: {}
 
+  is-extendable@0.1.1: {}
+
   is-extglob@2.1.1: {}
 
   is-glob@4.0.3:
@@ -2133,6 +2183,8 @@ snapshots:
   keyv@4.5.4:
     dependencies:
       json-buffer: 3.0.1
+
+  kind-of@6.0.3: {}
 
   levn@0.4.1:
     dependencies:
@@ -2300,6 +2352,11 @@ snapshots:
 
   search-insights@2.17.2: {}
 
+  section-matter@1.0.0:
+    dependencies:
+      extend-shallow: 2.0.1
+      kind-of: 6.0.3
+
   semver@7.6.3: {}
 
   shebang-command@2.0.0:
@@ -2335,6 +2392,8 @@ snapshots:
   strip-ansi@6.0.1:
     dependencies:
       ansi-regex: 5.0.1
+
+  strip-bom-string@1.0.0: {}
 
   strip-json-comments@3.1.1: {}
 
@@ -2409,6 +2468,13 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
+
+  vite-plugin-vitepress-auto-nav@3.0.0(vite@5.4.7)(vitepress@1.3.4(@algolia/client-search@4.24.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2)):
+    dependencies:
+      fast-glob: 3.3.2
+      gray-matter: 4.0.3
+      vite: 5.4.7
+      vitepress: 1.3.4(@algolia/client-search@4.24.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2)
 
   vite-plugin-vitepress-auto-sidebar@1.7.0(eslint@8.57.1)(typescript@5.6.2)(vite@5.4.7)(vitepress@1.3.4(@algolia/client-search@4.24.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2)):
     dependencies:
