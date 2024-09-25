@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
+
 import AutoNav from "vite-plugin-vitepress-auto-nav";
 
 
