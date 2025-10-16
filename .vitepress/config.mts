@@ -11,9 +11,12 @@ export default defineConfig({
   description: "记录日常",
   base: '/blog/', 
   
+  
   srcDir: 'docs',
   vite: {
   
+      assetsInclude: ['**/*.PNG', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg'],
+
     plugins: [
       AutoNav({
         
