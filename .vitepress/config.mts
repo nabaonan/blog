@@ -15,7 +15,7 @@ export default defineConfig({
   srcDir: 'docs',
   vite: {
   
-      assetsInclude: ['**/*.PNG', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg'],
+      assetsInclude: ['**/*.PNG', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg', '**/*.BMP'],
 
     plugins: [
       AutoNav({
