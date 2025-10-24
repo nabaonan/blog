@@ -82,7 +82,7 @@ docker-compose up -d
   - 默认用户名：`root`
   - 新用户注册，需要root管理员登录之后审批才可以使用
   - 镜像拉取要指定使用arm64架构的镜像，因为m1是arm64架构的
-
+  - 注意，通过ssh方式clone项目要加协议名，并且指定端口号   如下：`git clone ssh://git@gitlab.local:9022/<用户名>/<项目名>.git`
 
 
 。
