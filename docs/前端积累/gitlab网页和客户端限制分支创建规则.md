@@ -72,3 +72,28 @@ done
 
 exit 0  # 校验通过，允许推送
 ```
+
+
+
+5. 如何根据hash值查看仓库名
+
+`/Users/<用户名>/gitlab-arm/data/git-data/repositories/@hashed/6b/86/<hash值>.git`
+进入上面这个目录，记录下来hash值
+进入容器终端，通过命令 `docker exec -it gitlab-arm bash`
+
+
+通过postSQL查看仓库名
+写sql  `SELECT id, name, path FROM projects WHERE encode(sha256((id::text)::bytea), 'hex') ='6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b';`
+
+返回的结果如下
+```
+ id |     name     |     path     
+----+--------------+--------------
+  1 | test-githook | test-githook
+(1 row)
+```
+
+6. 根据仓库名反查 hash值
+首先输入`gitlab-psql`进入postgresql数据库   
+其次输入下面的sql，其主要原理是将id转换成sha256，实际上项目的hash值就是id的sha256值，id基本就是数字1,2,3
+`SELECT encode(sha256((id::text)::bytea), 'hex') FROM projects WHERE name = '<仓库名称>';`
